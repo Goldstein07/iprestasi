@@ -15,7 +15,7 @@
         <!-- Left Image Section -->
         <div class="w-1/2 h-full relative">
             <!-- Background Image -->
-            <img class="w-full h-full object-cover" src="{{ asset('img/fik.png') }}" alt="lb image" />
+            <img class="w-full h-full object-cover" src="img/fik.png" alt="lb image" />
 
             <!-- Overlay -->
             <div class="absolute inset-0 bg-[#2d3036]/30"></div>
@@ -32,8 +32,11 @@
         </div>
 
         <!-- Login Form -->
-        <div class="w-1/2 h-full flex justify-center items-center">
-            <!-- Right: App Title (Moved to Top Right) -->
+        <div class="w-1/2 h-full flex justify-center items-center relative z-10">
+            <div class="absolute inset-0 z-0 flex justify-center">
+                <img src="img/bglogin1.png" alt="Deskripsi gambar" class="w-full max-h-[600px] rounded-md">
+            </div>
+        
             <div class="absolute top-0 right-0 p-12 text-4xl font-bold z-10">
                 <span class="text-[#2d3036]">i</span>
                 <span class="text-[#fe632e]">Prestasi</span>
@@ -69,6 +72,9 @@
                         Masuk
                     </button>
                 </form>
+            </div>
+            <div class="absolute inset-x-0 bottom-0 z-0 flex justify-center">
+                <img src="img/bglogin2.png" alt="Deskripsi gambar" class="w-full max-h-[300px] object-cover rounded-md">
             </div>
         </div>
     </div>

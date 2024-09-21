@@ -46,7 +46,15 @@
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />
     </header>
 
-    <div class="flex flex-col md:flex-row mt-6">
+    <div class="absolute inset-0 z-0 flex justify-center mt-16">
+        <img src="img/bgdetail1.png" alt="Deskripsi gambar" class="w-full max-h-[300px] object-cover rounded-md">
+    </div>
+
+    <div class="absolute inset-x-0 bottom-0 z-0 flex justify-center">
+        <img src="img/bgdetail2.png" alt="Deskripsi gambar" class="w-full max-h-[300px] object-cover rounded-md">
+    </div>
+
+    <div class="relative z-10 flex flex-col md:flex-row mt-6">
         <!-- New Sidebar Section -->
         <div class="md:w-1/3 px-8 py-4 overflow-y-auto" style="max-height: 90vh;">
             <!-- Search Box -->

@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.jsx')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <title>Dashboard IPrestasi</title>
+    <title>Beasiswa IPrestasi</title>
 </head>
 
 <body>
@@ -31,9 +31,9 @@
             <nav class="hidden md:flex items-center gap-6">
                 <a href="{{ route('dashboard') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Home</a>
-                <a href="#" class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Lomba</a>
-                <a href="{{ route('beasiswa') }}"
-                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Beasiswa</a>
+                <a href="{{ route('lomba') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
+                <a href="#"
+                    class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Beasiswa</a>
                 <a href="{{ route('abdimas') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
                     Masyarakat</a>
                 <a href="{{ route('penelitian') }}"
@@ -45,7 +45,7 @@
         </div>
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />
     </header>
-
+    
     <div class="absolute inset-0 z-0 flex justify-center mt-16">
         <img src="img/bglomba.png" alt="Deskripsi gambar" class="w-full max-h-[750px] rounded-md">
     </div>
@@ -81,7 +81,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <!-- Card 1 -->
             <div
-                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Primary-orange-500 flex flex-col items-start gap-3">
+                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3">
                 <img class="w-14 h-11 object-contain" src="img/prosedurlomba.png" alt="Prosedur Lomba">
                 <div class="Content flex flex-col gap-1">
                     <div class="ProsedurLomba text-gray-900 text-lg font-medium leading-7">Prosedur Lomba</div>

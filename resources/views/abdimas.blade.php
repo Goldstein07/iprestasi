@@ -8,7 +8,7 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.jsx')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <title>Dashboard IPrestasi</title>
+    <title>Abdimas IPrestasi</title>
 </head>
 
 <body>
