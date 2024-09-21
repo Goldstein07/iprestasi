@@ -17,8 +17,8 @@
         <div class="flex items-center gap-4">
             <!-- Logo and Branding -->
             <div class="flex items-center gap-2 md:gap-4">
-                <div class="w-8 h-8 md:w-10 md:h-10 bg-[#fe632e] rounded-full flex items-center justify-center">
-                    <span class="text-white text-lg md:text-2xl font-semibold"></span>
+                <div class="w-8 h-8 md:w-10 md:h-10 rounded-full flex items-center justify-center overflow-hidden">
+                    <img src="img/naruto.jpeg" alt="Logo" class="w-full h-full object-cover" />
                 </div>
                 <div class="flex items-center gap-0.5">
                     <span class="text-gray-900 text-lg md:text-2xl font-semibold">i</span>

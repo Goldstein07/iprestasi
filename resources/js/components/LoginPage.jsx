@@ -17,7 +17,6 @@ const LoginPage = () => {
 
                 {/* Logo and Text Positioned Above the Image */}
                 <div className="absolute top-0 left-0 p-12 flex items-center gap-4 z-10">
-                    {/* z-10 ensures it's above the image */}
                     <img
                         className="w-16 h-16"
                         src="/img/upn.png"
@@ -32,14 +31,14 @@ const LoginPage = () => {
             </div>
 
             {/* Login Form */}
-            <div className="w-1/2 h-full flex justify-center items-center relative">
+            <div className="w-1/2 h-full flex justify-center items-center relative bg-gray-100">
                 {/* Right: App Title */}
                 <div className="absolute top-0 right-0 p-12 text-4xl font-bold z-10">
                     <span className="text-[#2d3036]">i</span>
                     <span className="text-[#fe632e]">Prestasi</span>
                 </div>
 
-                <div className="w-[598px] bg-white rounded-3xl border border-[#d1d3d8] p-12 shadow-lg flex flex-col items-center gap-6">
+                <div className="w-[80%] max-w-[598px] bg-white rounded-3xl border border-[#d1d3d8] p-12 shadow-lg flex flex-col items-center gap-6">
                     <h1 className="text-[#2d3036] text-2xl font-medium">
                         Selamat Datang, Fikers!
                     </h1>
@@ -55,7 +54,7 @@ const LoginPage = () => {
                             <input
                                 type="email"
                                 placeholder="ava.wright@gmail.com"
-                                className="w-full px-4 py-3 bg-white border border-zinc-200 rounded-md text-base text-zinc-500 focus:outline-none focus:border-[#fe632e]"
+                                className="w-full px-4 py-3 border border-zinc-200 rounded-md text-base text-zinc-500 focus:outline-none focus:border-[#fe632e]"
                             />
                         </div>
 
@@ -68,7 +67,7 @@ const LoginPage = () => {
                             <input
                                 type="password"
                                 placeholder="••••••••"
-                                className="w-full px-4 py-3 bg-white border border-zinc-200 rounded-md text-base text-zinc-500 focus:outline-none focus:border-[#fe632e]"
+                                className="w-full px-4 py-3 border border-zinc-200 rounded-md text-base text-zinc-500 focus:outline-none focus:border-[#fe632e]"
                             />
                         </div>
 

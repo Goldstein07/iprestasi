@@ -8,10 +8,10 @@
     @vite('resources/css/app.css')
     @vite('resources/js/app.jsx')
     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
-    <title>Detail Lomba</title>
+    <title>Detail Beasiswa</title>
 </head>
 
-<body class="bg-gray-50 ">
+<body class="bg-gray-50">
     {{-- Navbar --}}
     <header class="w-full h-16 px-4 md:px-10 py-4 bg-white shadow-md flex items-center justify-between">
         <div class="flex items-center gap-4">
@@ -31,10 +31,9 @@
             <nav class="hidden md:flex items-center gap-6">
                 <a href="{{ route('dashboard') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Home</a>
+                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
                 <a href="#"
-                    class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Lomba</a>
-                <a href="#"
-                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Beasiswa</a>
+                    class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Beasiswa</a>
                 <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
                     Masyarakat</a>
                 <a href="#"
@@ -47,7 +46,7 @@
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />
     </header>
 
-    <div class="flex flex-col md:flex-row mt-6" >
+    <div class="flex flex-col md:flex-row mt-6">
         <!-- New Sidebar Section -->
         <div class="md:w-1/3 px-8 py-4 overflow-y-auto" style="max-height: 90vh;">
             <!-- Search Box -->
@@ -145,8 +144,7 @@
                 </div>
                 <div class="h-[159px] px-3 py-4 bg-white rounded-xl border border-neutral-100 flex gap-2">
                     <div class="w-[125px] h-[127px] relative">
-                        <img src="img/logobem.png" alt="Deskripsi gambar"
-                            class="w-full h-full object-cover rounded-xl">
+                        <img src="img/logobem.png" alt="Deskripsi gambar" class="w-full h-full object-cover rounded-xl">
                         <div
                             class="absolute top-2 left-2 px-2 py-0.5 bg-blue-500 text-white text-xs font-semibold rounded-2xl">
                             Lomba
@@ -167,8 +165,7 @@
                 </div>
                 <div class="h-[159px] px-3 py-4 bg-white rounded-xl border border-neutral-100 flex gap-2">
                     <div class="w-[125px] h-[127px] relative">
-                        <img src="img/logobem.png" alt="Deskripsi gambar"
-                            class="w-full h-full object-cover rounded-xl">
+                        <img src="img/logobem.png" alt="Deskripsi gambar" class="w-full h-full object-cover rounded-xl">
                         <div
                             class="absolute top-2 left-2 px-2 py-0.5 bg-blue-500 text-white text-xs font-semibold rounded-2xl">
                             Lomba
@@ -239,6 +236,9 @@
                 <p class="text-gray-700">Google Developer Student Club STT-NF</p>
             </div>
         </div>
+    </div>
+    <div class="flex justify-center mb-4">
+        <img src="img/bgdetail1.png" alt="Deskripsi gambar" class="w-full max-h-[300px] object-cover rounded-md">
     </div>
 </body>
 
