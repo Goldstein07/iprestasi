@@ -237,9 +237,6 @@
             </div>
         </div>
     </div>
-    <div class="flex justify-center mb-4">
-        <img src="img/bgdetail1.png" alt="Deskripsi gambar" class="w-full max-h-[300px] object-cover rounded-md">
-    </div>
 </body>
 
 </html>
