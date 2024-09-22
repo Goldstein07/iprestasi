@@ -31,16 +31,19 @@
             <nav class="hidden md:flex items-center gap-6">
                 <a href="{{ route('dashboard') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Home</a>
-                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
-                <a href="#"
+                <a href="{{ route('lomba') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
+                <a href="{{ route('beasiswa') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Beasiswa</a>
-                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
+                <a href="{{ route('abdimas') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
                     Masyarakat</a>
-                <a href="#"
+                <a href="{{ route('penelitian') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Penelitian</a>
                 <a href="#"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pendataan</a>
-                <a href="#" class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">FAQ</a>
+                <a href="#"
+                    class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">FAQ</a>
             </nav>
         </div>
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />

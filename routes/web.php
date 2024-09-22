@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('dashboard');
+    return view('prosedure');
 });
 
 Route::get('/login', function () {
@@ -37,6 +37,10 @@ Route::get('/penelitian', function () {
 Route::get('/faq', function () {
     return view('faq');
 })->name(name: 'faq');
+
+Route::get('/prosedure', function () {
+    return view('prosedure');
+})->name(name: 'prosedure');
 
 
 

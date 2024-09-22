@@ -31,16 +31,19 @@
             <nav class="hidden md:flex items-center gap-6">
                 <a href="#"
                     class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Home</a>
-                <a href="{{ route('lomba') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
+                <a href="{{ route('lomba') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
                 <a href="{{ route('beasiswa') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Beasiswa</a>
-                <a href="{{ route('abdimas') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
+                <a href="{{ route('abdimas') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
                     Masyarakat</a>
                 <a href="{{ route('penelitian') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Penelitian</a>
                 <a href="#"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pendataan</a>
-                <a href="{{ route('faq') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">FAQ</a>
+                <a href="{{ route('faq') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">FAQ</a>
             </nav>
         </div>
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />
@@ -80,19 +83,21 @@
     <div class="w-full px-16 py-8 mt-10 mb-12 relative z-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <!-- Card 1 -->
-            <div
-                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Primary-orange-500 flex flex-col items-start gap-3">
-                <img class="w-14 h-11 object-contain" src="img/prosedurlomba.png" alt="Prosedur Lomba">
-                <div class="Content flex flex-col gap-1">
-                    <div class="ProsedurLomba text-gray-900 text-lg font-medium leading-7">Prosedur Lomba</div>
-                    <div class="PelajariProsedurLomba text-gray-600 text-sm font-normal leading-tight">Pelajari prosedur
-                        lomba agar setiap langkah dalam pencapaianmu selalu tercatat!</div>
+            <a href="{{ route('prosedure') }}">
+                <div
+                    class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Primary-orange-500 flex flex-col items-start gap-3 hover:border-orange-500 focus:border-orange-500">
+                    <img class="w-14 h-11 object-contain" src="img/prosedurlomba.png" alt="Prosedur Lomba">
+                    <div class="Content flex flex-col gap-1">
+                        <div class="ProsedurLomba text-gray-900 text-lg font-medium leading-7">Prosedur Lomba</div>
+                        <div class="PelajariProsedurLomba text-gray-600 text-sm font-normal leading-tight">Pelajari
+                            prosedur lomba agar setiap langkah dalam pencapaianmu selalu tercatat!</div>
+                    </div>
                 </div>
-            </div>
+            </a>
 
             <!-- Card 2 -->
             <div
-                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3">
+                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3 hover:border-orange-500 focus:border-orange-500">
                 <img class="w-14 h-11 object-contain" src="img/prosedurbeasiswa.png" alt="Prosedur Beasiswa">
                 <div class="Content flex flex-col gap-1">
                     <div class="ProsedurBeasiswa text-gray-900 text-lg font-medium leading-7">Prosedur Beasiswa</div>
@@ -103,7 +108,7 @@
 
             <!-- Card 3 -->
             <div
-                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3">
+                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3 hover:border-orange-500 focus:border-orange-500">
                 <img class="w-14 h-11 object-contain" src="img/prosedurabdimas.png"
                     alt="Prosedur Pengabdian Masyarakat">
                 <div class="Content flex flex-col gap-1">
@@ -116,7 +121,7 @@
 
             <!-- Card 4 -->
             <div
-                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3">
+                class="CardInformasi px-6 py-8 bg-white rounded-2xl shadow border border-Neutral-neutral-100 flex flex-col items-start gap-3 hover:border-orange-500 focus:border-orange-500">
                 <img class="w-12 h-11 object-contain" src="img/prosedurpenelitian.png" alt="Prosedur Penelitian">
                 <div class="Content flex flex-col gap-1">
                     <div class="ProsedurPenelitian text-gray-900 text-lg font-medium leading-7">Prosedur Penelitian
