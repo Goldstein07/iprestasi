@@ -11,7 +11,7 @@
     <title>Dashboard IPrestasi</title>
 </head>
 
-<body class="relative">
+<body class="relative min-h-screen">
     {{-- Navbar --}}
     <header class="w-full h-16 px-4 md:px-10 py-4 bg-white shadow-md flex items-center justify-between">
         <div class="flex items-center gap-4">
@@ -48,17 +48,20 @@
     </header>
 
     <div class="absolute inset-0 z-0 flex justify-center mt-16">
-        <img src="img/bgfaq1.png" alt="Deskripsi gambar" class="w-full max-h-[200px] rounded-md">
+        <img src="img/bgprosedure1.png" alt="Deskripsi gambar" class="w-full max-h-[200px] rounded-md">
     </div>
 
-    <div class="container max-w-5xl mx-auto px-4 py-16 relative z-10">
+    <div class="absolute inset-x-0 bottom-0 z-0 flex justify-center">
+        <img src="img/bgprosedure3.png" alt="Deskripsi gambar" class="w-full max-h-[300px] rounded-md">
+    </div>
+
+    <div class="container max-w-5xl mx-auto px-4 py-20 relative z-10">
         <div class="text-center">
-            <h2 class="text-4xl font-extrabold text-gray-800">
-                Prosedur Perlombaan di Fakultas Ilmu Komputer UPN Veteran Jakarta
+            <h2 class="text-3xl font-extrabold text-gray-800">
+                Prosedur Perlombaan di Fakultas Ilmu Komputer <br>UPN Veteran Jakarta
             </h2>
         </div>
-
-        
+  
         <div class="mt-20 relative z-10">
             <!-- Prosedur Pendaftaran Lomba -->
             <div class="bg-white shadow-lg p-8 rounded-t-xl border-b border-gray-300">
@@ -291,7 +294,7 @@
         });
     </script>
 
-
+    
 </body>
 
 </html>

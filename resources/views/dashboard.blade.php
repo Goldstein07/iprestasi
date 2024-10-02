@@ -65,8 +65,8 @@
     </div>
 
     <!-- Centered Search Box -->
-    <div class="w-full max-w-lg mx-auto relative z-10">
-        <div class="flex gap-0.5">
+    <div class="w-full max-w-4xl mx-auto relative z-10">
+        <div class="flex">
             <div
                 class="flex-grow px-2 py-1 bg-white rounded-tl-lg rounded-bl-lg border border-neutral-300 flex items-center">
                 <input type="text" placeholder="Cari informasi.."
@@ -141,17 +141,17 @@
     <div class="w-full flex flex-col gap-6 mb-12 relative z-10">
         <div class="w-full px-16 flex justify-between items-center">
             <h1 class="text-black text-2xl font-semibold">Informasi Lomba</h1>
-            <a href="#" class="text-orange-500 text-base font-normal text-right">Lihat Semua</a>
+            <a href="{{ route('lomba') }}" class="text-orange-500 text-base font-normal text-right">Lihat Semua</a>
         </div>
 
         <div class="w-full px-16 flex gap-6 overflow-x-auto">
             <!-- Card 1 -->
             <div
                 class="w-[343px] h-[308px] p-4 bg-white rounded-xl border border-neutral-200 shadow-lg flex flex-col gap-2">
-                <div class="w-full h-44 bg-gray-300 rounded-xl relative">
-                    <div class="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-0.5 rounded-2xl">Lomba
-                    </div>
+                <div class="w-full h-44 bg-gray-300 rounded-xl relative bg-cover bg-center" style="background-image: url('img/poster.jpeg');">
+                    <div class="absolute top-2 left-2 bg-blue-500 text-white text-xs px-2 py-0.5 rounded-2xl">Lomba</div>
                 </div>
+                
                 <div class="flex flex-col gap-2">
                     <h2 class="text-black text-lg font-medium">INSPACE UI/UX</h2>
                     <p class="text-gray-500 text-sm">
