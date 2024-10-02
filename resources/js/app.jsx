@@ -1,10 +1,12 @@
 import React from "react";
-import ReactDOM from "react-dom/client"; 
-import App from "./components/LoginPage"; 
+import ReactDOM from "react-dom/client";
+import App from "./components/LoginPage";
+import { PendataanLomba } from "./pages/PendataanLomba";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
     <React.StrictMode>
-        <App />
+        {/* <App /> */}
+        <PendataanLomba></PendataanLomba>
     </React.StrictMode>
 );

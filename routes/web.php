@@ -21,3 +21,15 @@ Route::get('/lomba', function () {
 Route::get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
+
+Route::get('/pendataanLomba', function () {
+    return view('pendataanLomba');
+})->name('pendataanLomba');
+
+Route::get('/pendataanBeasiswa', function () {
+    return view('pendataanBeasiswa');
+})->name('pendataanBeasiswa');
+
+Route::get('/daftarAbdimas', function () {
+    return view('daftarAbdimas');
+})->name('daftarAbdimas');
