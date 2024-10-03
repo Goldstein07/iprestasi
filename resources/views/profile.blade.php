@@ -103,54 +103,58 @@
         </div>
 
         <!-- Catatan Keaktifan -->
-        <h2 class="text-xl font-semibold mb-4 mt-8">Catatan Keaktifan</h2>
-        <div class="grid grid-cols-4 gap-4">
-            <div class="bg-white border-2 border-neutral-100 rounded-md p-4 flex flex-row items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-blue-500 mr-12" fill="none"
+        <h2 class="text-xl font-semibold mb-6 mt-8">Catatan Keaktifan</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+            <div
+                class="bg-white border-2 border-neutral-200 rounded-lg p-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-blue-500 ml-6" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                         d="M8 14v3m4-3v3m4-3v3M3 21h18M3 10h18M3 7l9-3 9 3M9 10h6M9 21h6" />
                 </svg>
-                <div>
-                    <p class="font-semibold text-center">LOMBA</p>
-                    <p class="text-[#2d3036] text-2xl font-medium font-['Inter'] leading-10 text-center">36/50</p>
-                    <p class="text-gray-600 text-xs text-center">Daftar/Menang</p>
+                <div class="ml-16 text-center">
+                    <p class="font-semibold">LOMBA</p>
+                    <p class="text-[#2d3036] text-2xl font-medium leading-10">36/50</p>
+                    <p class="text-gray-600 text-xs">Daftar/Menang</p>
                 </div>
             </div>
-            <div class="bg-white border-2 border-neutral-100 rounded-md p-4 flex flex-row items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-green-500 mr-12" fill="none"
+            <div
+                class="bg-white border-2 border-neutral-200 rounded-lg p-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-green-500 ml-6" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                         d="M15.232 5.232l3.536 3.536m-2.031 2.031L9 6.707v10.586a1 1 0 001.414 1.414l10.586-10.586m-3.536-3.536L13.697 6.44l-3.536 3.536" />
                 </svg>
-                <div>
-                    <p class="font-semibold text-center">BEASISWA</p>
-                    <p class="text-[#2d3036] text-2xl font-medium font-['Inter'] leading-10 text-center">36/50</p>
-                    <p class="text-gray-600 text-xs text-center">Daftar/Menang</p>
+                <div class="ml-16 text-center">
+                    <p class="font-semibold">BEASISWA</p>
+                    <p class="text-[#2d3036] text-2xl font-medium leading-10">36/50</p>
+                    <p class="text-gray-600 text-xs">Daftar/Menang</p>
                 </div>
             </div>
-            <div class="bg-white border-2 border-neutral-100 rounded-md p-4 flex flex-row items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-yellow-500 mr-12" fill="none"
+            <div
+                class="bg-white border-2 border-neutral-200 rounded-lg p-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-yellow-500 ml-6" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                         d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-12 0v1z" />
                 </svg>
-                <div>
-                    <p class="font-semibold text-center">ABDIMAS</p>
-                    <p class="text-[#2d3036] text-2xl font-medium font-['Inter'] leading-10 text-center">36/50</p>
-                    <p class="text-gray-600 text-xs text-center">Daftar/Loloa</p>
+                <div class="ml-16 text-center">
+                    <p class="font-semibold">ABDIMAS</p>
+                    <p class="text-[#2d3036] text-2xl font-medium leading-10">36/50</p>
+                    <p class="text-gray-600 text-xs">Daftar/Lolos</p>
                 </div>
             </div>
-            <div class="bg-white border-2 border-neutral-100 rounded-md p-4 flex flex-row items-center justify-center">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10 text-purple-500 mr-12" fill="none"
+            <div
+                class="bg-white border-2 border-neutral-200 rounded-lg p-6 flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-16 w-16 text-purple-500 ml-6" fill="none"
                     viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                         d="M12 19l9 2-9-18-9 18 9-2zm-5-10v5a5 5 0 005 5h3a5 5 0 00-5-5v-5m0-5h5v5a5 5 0 01-5 5h-3a5 5 0 01-5-5v-5m0 0h-5v5a5 5 0 005 5h3a5 5 0 005-5v-5" />
                 </svg>
-                <div>
-                    <p class="font-semibold text-center">PENELITIAN</p>
-                    <p class="text-[#2d3036] text-2xl font-medium font-['Inter'] leading-10 text-center">36/50</p>
-                    <p class="text-gray-600 text-xs text-center">Daftar/Menang</p>
+                <div class="ml-16 text-center">
+                    <p class="font-semibold">PENELITIAN</p>
+                    <p class="text-[#2d3036] text-2xl font-medium leading-10">36/50</p>
+                    <p class="text-gray-600 text-xs">Daftar/Menang</p>
                 </div>
             </div>
         </div>
@@ -173,7 +177,7 @@
                         Perlombaan UI/UX Design Nasional diadakan oleh Institut Teknologi Kalimantan
                     </div>
                     <div class="flex items-center gap-2">
-                        <img src="img/time.png" alt="Icon Time" class="w-4 h-4">
+                        <img src="img/waktu.png" alt="Icon Time" class="w-4 h-4">
                         <div class="text-orange-500 text-xs font-medium leading-tight">20 Sep 2024</div>
                     </div>
                 </div>
@@ -193,7 +197,7 @@
                         Perlombaan UI/UX Design Nasional diadakan oleh Institut Teknologi Kalimantan
                     </div>
                     <div class="flex items-center gap-2">
-                        <img src="img/time.png" alt="Icon Time" class="w-4 h-4">
+                        <img src="img/waktu.png" alt="Icon Time" class="w-4 h-4">
                         <div class="text-orange-500 text-xs font-medium leading-tight">20 Sep 2024</div>
                     </div>
                 </div>
@@ -213,7 +217,7 @@
                         Perlombaan UI/UX Design Nasional diadakan oleh Institut Teknologi Kalimantan
                     </div>
                     <div class="flex items-center gap-2">
-                        <img src="img/time.png" alt="Icon Time" class="w-4 h-4">
+                        <img src="img/waktu.png" alt="Icon Time" class="w-4 h-4">
                         <div class="text-orange-500 text-xs font-medium leading-tight">20 Sep 2024</div>
                     </div>
                 </div>

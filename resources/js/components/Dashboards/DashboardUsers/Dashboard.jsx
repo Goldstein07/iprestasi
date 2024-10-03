@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "./Navbar";
+import Navbar from "../../Navbar";
 import HeaderSection from "./HeaderSection";
 import SearchBox from "./SearchBox";
 import ProcedureCards from "./ProcedureCards";
@@ -7,7 +7,7 @@ import CardLomba from "./CardLomba";
 import CardBeasiswa from "./CardBeasiswa";
 import CardAbdimas from "./CardAbdimas";
 import CardPenelitian from "./CardPenelitian";
-import Footer from "./Footer";
+import Footer from "../../Footer";
 
 const Dashboard = () => {
     return (
