@@ -67,3 +67,15 @@ Route::get('/prosedure', function () {
 Route::get('/profile', function () {
     return view('profile');
 })->name('profile');
+
+Route::get('/pendataanLomba', function () {
+    return view('pendataanLomba');
+})->name('pendataanLomba');
+
+Route::get('/pendataanBeasiswa', function () {
+    return view('pendataanBeasiswa');
+})->name('pendataanBeasiswa');
+
+Route::get('/daftarAbdimas', function () {
+    return view('daftarAbdimas');
+})->name('daftarAbdimas');
