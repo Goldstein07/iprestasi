@@ -29,25 +29,28 @@
         <div class="flex-grow flex items-center justify-center">
             <!-- Centered Navigation -->
             <nav class="hidden md:flex items-center gap-6">
-                <a href="#"
-                    class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Home</a>
-                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Lomba</a>
-                <a href="#"
+                <a href="{{ route('dashboard') }}"
+                    class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Home</a>
+                <a href="#" class="px-3 py-1 md:px-4 md:py-2 bg-[#fe632e] text-white rounded-2xl text-sm md:text-base font-medium">Lomba</a>
+                <a href="{{ route('beasiswa') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Beasiswa</a>
-                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
+                <a href="{{ route('abdimas') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pengabdian
                     Masyarakat</a>
-                <a href="#"
+                <a href="{{ route('penelitian') }}"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Penelitian</a>
                 <a href="#"
                     class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">Pendataan</a>
-                <a href="#" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">FAQ</a>
+                <a href="{{ route('faq') }}" class="text-gray-900 text-sm md:text-base font-medium hover:text-[#fe632e]">FAQ</a>
             </nav>
         </div>
         <img class="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto" src="/img/profile.png" alt="User Profile" />
     </header>
 
+    <div class="absolute inset-0 z-0 flex justify-center mt-16">
+        <img src="img/bglomba.png" alt="Deskripsi gambar" class="w-full max-h-[750px] rounded-md">
+    </div>
 
-    <div class="w-full px-4 md:px-10 py-6 mt-10">
+    <div class="w-full px-4 md:px-10 py-6 mt-10 relative z-10">
         <div class="text-center mb-6">
             <span class="text-black text-4xl font-medium leading-10">Eksplor Informasi </span>
             <span class="text-[#fe632e] text-4xl font-medium leading-10">Lomba, Beasiswa, Pengabdian Masyarakat, </span>
@@ -59,7 +62,7 @@
     </div>
 
     <!-- Centered Search Box -->
-    <div class="w-full max-w-lg mx-auto">
+    <div class="w-full max-w-lg mx-auto relative z-10">
         <div class="flex gap-0.5">
             <div
                 class="flex-grow px-2 py-1 bg-white rounded-tl-lg rounded-bl-lg border border-neutral-300 flex items-center">
@@ -74,7 +77,7 @@
     </div>
 
     {{-- Prosedure --}}
-    <div class="w-full px-16 py-8 mt-10 mb-12">
+    <div class="w-full px-16 py-8 mt-10 mb-12 relative z-10">
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             <!-- Card 1 -->
             <div
