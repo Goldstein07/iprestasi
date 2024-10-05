@@ -45,6 +45,33 @@ export const TabPrestasiLomba = () => {
                     </label>
                     <select className="w-full border rounded-lg p-2">
                         <option>Bukan Delegasi dari ORMAWA</option>
+                        <option>
+                            Badan Eksekutif Mahasiswa Fakultas Ilmu Komputer
+                        </option>
+                        <option>BI Corner</option>
+                        <option>Club Frame of Photography</option>
+                        <option>Commander of the Menwa</option>
+                        <option>Enterprise Development Center</option>
+                        <option>FIBER PRODUCTION</option>
+                        <option>Five TV</option>
+                        <option>Forum Kajian Islam Asy Sifa</option>
+                        <option>Forum Kartu Jakarta Mahasiswa Unggul</option>
+                        <option>Forum Komunikasi Islam Al Hakim</option>
+                        <option>
+                            Forum Mahasiswa Bidikmisi dan Forum Komunikasi
+                            Mahasiswa Penerima Kartu Jakarta Mahasiswa Unggul
+                        </option>
+                        <option>Forum Riset dan Debat Mahasiswa</option>
+                        <option>Frame of Photography</option>
+                        <option>Himpunan Mahasiswa Informatika S1</option>
+                        <option>Himpunan Mahasiswa Sitem Informasi</option>
+                        <option>Kelompok Studi Mahasiswa Android</option>
+                        <option>
+                            Kelompok Studi Mahasiswa "Cyber Security"
+                        </option>
+                        <option>Kelompok Studi Mahasiswa Multimedia</option>
+                        <option>Kelompok Studi Mahasiswa Robotika</option>
+                        <option>Senat Mahasiswa Fakultas Ilmu Komputer</option>
                     </select>
                 </div>
                 <div className="mb-4">
