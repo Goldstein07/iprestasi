@@ -153,7 +153,7 @@ const Navbar = () => {
             <div className="relative">
                 <button onClick={toggleProfileDropdown}>
                     <img
-                        className="w-6 h-6 md:w-8 md:h-8 rounded-full ml-auto cursor-pointer"
+                        className="w-9 h-9 md:w-9 md:h-9 rounded-full ml-auto cursor-pointer"
                         src="/img/profile.png"
                         alt="User Profile"
                     />
@@ -170,7 +170,7 @@ const Navbar = () => {
                             Profile
                         </a>
                         <a
-                            href="/logout"
+                            href="/login"
                             className="block px-4 py-2 text-gray-700 hover:bg-gray-100"
                         >
                             Logout
